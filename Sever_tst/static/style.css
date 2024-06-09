@@ -1,0 +1,39 @@
+.container {
+    background-color: darkgreen;
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header {
+    width: auto;
+    height: auto;
+    background-color: lightgreen;
+    text-align: center;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line to vertically center the text */
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.output {
+    width: auto;
+    height: 900px;
+    background-color: yellow;
+    text-align: center;
+}
+
+
